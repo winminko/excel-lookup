@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div style={{ padding: 20 }}>
       <h1>Point → E:N:H </h1>
-      <h2>Created By Seatrium DC Team</h2>
+      <h3>Created By Seatrium DC Team</h3>
       <input
         placeholder="Search by Name"
         value={q}
