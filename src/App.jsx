@@ -11,7 +11,8 @@ export default function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Name → East / North / Height</h1>
+      <h1>Point → E:N:H </h1>
+      <h2>Created By Seatrium DC Team</h2>
       <input
         placeholder="Search by Name"
         value={q}
@@ -31,10 +32,10 @@ export default function App() {
       >
         <thead>
           <tr>
-            <th style={th}>Name (A)</th>
-            <th style={th}>East (B)</th>
-            <th style={th}>North (C)</th>
-            <th style={th}>Height (D)</th>
+            <th style={th}>Points</th>
+            <th style={th}>East </th>
+            <th style={th}>North </th>
+            <th style={th}>Height </th>
           </tr>
         </thead>
         <tbody>
