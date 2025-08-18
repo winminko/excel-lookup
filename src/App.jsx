@@ -22,7 +22,7 @@ export default function App() {
     const t = input.trim().toLowerCase();
     const filtered = t
       ? data.filter((r) => (r.name || "").toLowerCase().includes(t))
-      :data; // empty input → show all (change to [] if you prefer no results)
+      : data; // empty input → show all (change to [] if you prefer no results)
     setResults(filtered);
     setHasSearched(true);
   };
