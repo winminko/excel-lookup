@@ -35,7 +35,7 @@ export default function App() {
     <div style={{ padding: 20 }}>
       <h1>Point → E:N:H</h1>
       <h3>Created By Seatrium DC Team</h3>
-<h4>Last Updated# 22.Nov.2025.</h4>
+<h4>Last Updated# 09.Dec.2025.</h4>
 
       <div style={{ display: "flex", gap: 8, maxWidth: 560 }}>
         <input
