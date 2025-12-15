@@ -35,7 +35,12 @@ export default function App() {
     <div style={{ padding: 20 }}>
       <h1>Point → E:N:H</h1>
       <h3>Created By Seatrium DC Team</h3>
+
 <h4>Last Updated# 09.Dec.2025.</h4>
+<h6>If the control point is the same, use the point with the prefix "A".
+For example, when searching for 8045, if both 8045 and A8045 appear, select A8045.
+A8045 represents the same physical point as 8045, but has a different ENH value.
+The ENH of A8045 is more accurate.</h6>
 
       <div style={{ display: "flex", gap: 8, maxWidth: 560 }}>
         <input
